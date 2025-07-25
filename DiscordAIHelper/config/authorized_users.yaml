@@ -1,0 +1,50 @@
+
+# Authorized Users Configuration
+# Add user IDs here to grant them control over the bot
+
+authorized_users:
+  # Owner (automatically has all permissions)
+  - 1007652090925043753
+  
+  # Add additional authorized users here:
+  - 859196775084327003
+  # - 111111111111111111
+  # - 222222222222222222
+
+# Permission levels for authorized users
+permissions:
+  # What commands authorized users can use
+  allowed_commands:
+    - "help"
+    - "ping"
+    - "stats" 
+    - "channels"
+    - "toggleactive"
+    - "ignore"
+    - "unignore"
+    - "toggledm"
+    - "togglegc"
+    - "pause"
+    - "resume"
+    - "cleanup"
+    - "system"
+    - "wipe"
+    - "models"
+    - "analyze"
+    - "sentiment"
+    - "status"
+    
+  # Commands only the owner can use
+  owner_only_commands:
+    - "reload"
+    - "restart"
+    - "shutdown"
+    - "maintenance"
+    - "config"
+    - "prompt"
+    - "testwh"
+    - "logs"
+    - "adduser"
+    - "removeuser"
+    - "listusers"
+    - "reloadauth"
